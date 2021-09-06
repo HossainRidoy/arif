@@ -1,0 +1,125 @@
+// color start
+$red: #c9252b;
+$black: #39474f;
+
+.text-red {
+    color: $red !important;
+}
+.bg-red {
+    background-color: $red !important;
+}
+.text-black {
+    color: $black !important;
+}
+.bg-black {
+    background-color: $black !important;
+}
+
+// color end
+
+body {
+    font-family: Hind Siliguri;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+p {
+    line-height: 1.8;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+// margin start
+.padding-top-buttom-100 {
+    padding: 120px 0;
+}
+.padding-bottom-100 {
+    padding-bottom: 100px;
+}
+// margin end
+// font size start
+.font-size-18 {
+    font-size: 18px;
+}
+.font-size-20 {
+    font-size: 20px;
+}
+.font-size-40 {
+    font-size: 40px;
+}
+// font size end
+
+.red-botton {
+    border: 1px solid $red;
+    padding: 10px 35px;
+    border-radius: 10px;
+    background: $red;
+    color: white;
+    font-size: 18px;
+    // font-weight: 700;
+}
+
+.text-align-justify{
+    text-align: justify;
+}
+.form-control:focus {
+    box-shadow: 0 0 3px 0px $red !important;
+    border-color: $red !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .top-scroll-95{
+        height: 67px !important;
+    }
+    .top-logo{
+        height: 40px !important;
+    }
+    .slide-text{
+        font-size: 26px !important;
+    }
+    h1{
+        font-size: 26px;
+    }
+    .slick-dots{
+        bottom: 9px !important;
+    }
+    // margin start
+    .padding-top-buttom-100 {
+        padding: 26px 0;
+    }
+    .padding-bottom-100 {
+        padding-bottom: 25px;
+    }
+    // margin end
+
+    .slick-prev {
+        left: 10px !important;
+        z-index: 99;
+        &::before {
+
+            width: 15px !important;
+            height: 15px !important;
+
+        }
+    }
+    .slick-next {
+        right: 10px !important;
+        z-index: 99;
+        &::before {
+
+            width: 15px !important;
+            height: 15px !important;
+           
+        }
+    }
+
+}
